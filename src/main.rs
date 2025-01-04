@@ -8,6 +8,7 @@ mod mod_03 {
     pub mod ex_03_modules;
     pub mod ex_04_visibility;
     pub mod ex_05_encapsulation;
+    pub mod ex_06_ownership;
 }
 
 fn main() {
