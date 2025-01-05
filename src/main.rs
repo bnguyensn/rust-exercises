@@ -22,6 +22,7 @@ mod mod_03 {
 mod mod_04 {
     mod ex_401_trait;
     mod ex_403_operator_overloading;
+    mod ex_404_derive;
 }
 
 fn main() {
