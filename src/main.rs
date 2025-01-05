@@ -10,6 +10,7 @@ mod mod_03 {
     pub mod ex_05_encapsulation;
     pub mod ex_06_ownership;
     pub mod ex_07_setters;
+    pub mod ex_08_stack;
 }
 
 fn main() {
