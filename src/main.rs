@@ -11,6 +11,7 @@ mod mod_03 {
     pub mod ex_06_ownership;
     pub mod ex_07_setters;
     pub mod ex_08_stack;
+    pub mod ex_09_heap;
 }
 
 fn main() {
