@@ -13,6 +13,11 @@ mod mod_03 {
     pub mod ex_08_stack;
     pub mod ex_09_heap;
     pub mod ex_10_references;
+
+    mod outro {
+        pub mod ex_12_outro;
+        pub mod ex_12_outro_test;
+    }
 }
 
 fn main() {
