@@ -12,6 +12,7 @@ mod mod_03 {
     pub mod ex_07_setters;
     pub mod ex_08_stack;
     pub mod ex_09_heap;
+    pub mod ex_10_references;
 }
 
 fn main() {
