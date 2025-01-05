@@ -24,6 +24,7 @@ mod mod_04 {
     mod ex_403_operator_overloading;
     mod ex_404_derive;
     mod ex_405_trait_bound;
+    mod ex_406_str_slice;
 }
 
 fn main() {
