@@ -27,6 +27,7 @@ mod mod_04 {
     mod ex_406_str_slice;
     mod ex_407_deref;
     mod ex_409_from;
+    mod ex_410_assoc;
 }
 
 fn main() {
