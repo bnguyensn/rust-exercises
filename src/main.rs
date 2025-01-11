@@ -28,6 +28,8 @@ mod mod_04 {
     mod ex_407_deref;
     mod ex_409_from;
     mod ex_410_assoc;
+    mod ex_411_clone;
+    mod ex_412_copy;
 }
 
 fn main() {
