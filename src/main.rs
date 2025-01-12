@@ -30,6 +30,7 @@ mod mod_04 {
     mod ex_410_assoc;
     mod ex_411_clone;
     mod ex_412_copy;
+    mod ex_413_drop;
 }
 
 fn main() {
