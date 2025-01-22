@@ -31,6 +31,10 @@ mod mod_04 {
     mod ex_411_clone;
     mod ex_412_copy;
     mod ex_413_drop;
+    mod outro {
+        mod ex_414_outro;
+        mod ex_414_outro_test;
+    }
 }
 
 fn main() {
