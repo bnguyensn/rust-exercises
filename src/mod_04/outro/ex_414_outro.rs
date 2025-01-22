@@ -46,9 +46,9 @@ impl From<&u8> for SaturatingU16 {
 
 impl std::ops::Add for SaturatingU16 {
     type Output = Self;
-    fn add(self, other: Self) -> Self {
-        Self {
-            value: self.value + other.value,
+    fn add(self, other: Self) -> Self::Output {
+        SaturatingU16 {
+            value: self.value.saturating_add(other.value),
         }
     }
 }
@@ -57,7 +57,7 @@ impl std::ops::Add<&SaturatingU16> for SaturatingU16 {
     type Output = Self;
     fn add(self, other: &SaturatingU16) -> Self {
         Self {
-            value: self.value + other.value,
+            value: self.value.saturating_add(other.value),
         }
     }
 }
