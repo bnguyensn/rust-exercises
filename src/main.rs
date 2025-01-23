@@ -37,6 +37,10 @@ mod mod_04 {
     }
 }
 
+mod mod_05 {
+    mod ex_501_enum;
+}
+
 fn main() {
     println!("Hello, world!");
 }
