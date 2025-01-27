@@ -40,6 +40,7 @@ mod mod_04 {
 mod mod_05 {
     mod ex_501_enum;
     mod ex_502_match;
+    mod ex_503_variants;
 }
 
 fn main() {
