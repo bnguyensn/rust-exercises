@@ -41,6 +41,7 @@ mod mod_05 {
     mod ex_501_enum;
     mod ex_502_match;
     mod ex_503_variants;
+    mod ex_504_if_let;
 }
 
 fn main() {
