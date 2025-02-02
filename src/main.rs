@@ -42,6 +42,7 @@ mod mod_05 {
     mod ex_502_match;
     mod ex_503_variants;
     mod ex_504_if_let;
+    mod ex_506_nullability;
 }
 
 fn main() {
