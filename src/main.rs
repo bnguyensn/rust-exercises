@@ -44,6 +44,7 @@ mod mod_05 {
     mod ex_504_if_let;
     mod ex_505_nullability;
     mod ex_506_fallibility;
+    mod ex_507_unwrap;
 }
 
 fn main() {
