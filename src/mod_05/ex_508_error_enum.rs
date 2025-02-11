@@ -12,8 +12,7 @@ enum TicketNewError {
 //   When the description is invalid, instead, it should use a default description:
 //   "Description not provided".
 fn easy_ticket(title: String, description: String, status: Status) -> Ticket {
-    let t = Ticket::new(title.clone(), description, status.clone());
-    match t {
+    match Ticket::new(title.clone(), description, status.clone()) {
         Ok(t) => t,
         Err(TicketNewError::TitleError(err)) => panic!("{}", err),
         Err(TicketNewError::DescriptionError(_)) => {
